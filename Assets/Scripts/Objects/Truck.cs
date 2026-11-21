@@ -13,10 +13,40 @@ public class Truck : MonoBehaviour
 
     private HashSet<BoxType> boxTypes = new();
 
+    private HashSet<BoxType> validBoxes = new();
+
     public void Awake()
     {
         inventory.Init(playerType);
 
+        validBoxes.AddRange(InitalValidItems());
+        boxTypes.AddRange(FillTrucks());
+    }
+
+    private HashSet<BoxType> InitalValidItems()
+    {
+        return new HashSet<BoxType>() { BoxType.Blue, BoxType.Green, BoxType.Normal, BoxType.Red };
+    }
+
+    public void SecondValidItems()
+    {
+        validBoxes.AddRange(new HashSet<BoxType>() { BoxType.DragonBallNormalBox,
+            BoxType.DragonBallGreenBox,
+            BoxType.DragonBallRedBox,
+            BoxType.DragonBallBlueBox });
+    }
+
+    public void ThirdValidItems()
+    {
+        validBoxes.AddRange(new HashSet<BoxType>() { BoxType.NormalDuckBox,
+            BoxType.DuckGreenBox,
+            BoxType.DuckRedBox,
+            BoxType.DuckBlueBox});
+    }
+
+    public void ChangeTruckRules()
+    {
+        boxTypes.Clear();
         boxTypes.AddRange(FillTrucks());
     }
 
@@ -38,7 +68,7 @@ public class Truck : MonoBehaviour
 
         for (int i = 0; i < boxesCount; i++)
         {
-            BoxType randomBox = GetRandomBox(Random.Range(0, 100));
+            BoxType randomBox = GetRandomWeightedItem(validBoxes.ToArray());
 
             if (!boxTypes.Add(randomBox))
             {
@@ -50,16 +80,50 @@ public class Truck : MonoBehaviour
         return boxTypes.ToArray();
     }
 
-    private BoxType GetRandomBox(int prob)
+    private int GetRandomBox(BoxType boxType)
     {
-        return prob switch
+        return boxType switch
         {
-            < 20 => BoxType.Normal,
-            < 40 => BoxType.Blue,
-            < 60 => BoxType.Green,
-            < 80 => BoxType.Red,
-            _ => BoxType.None
+            BoxType.Normal => 100,
+            BoxType.Blue => 70,
+            BoxType.Green => 50,
+            BoxType.Red => 30,
+
+            BoxType.DragonBallNormalBox => 20,
+            BoxType.DragonBallGreenBox => 15,
+            BoxType.DragonBallRedBox => 10,
+            BoxType.DragonBallBlueBox => 5,
+
+            BoxType.NormalDuckBox => 20,
+            BoxType.DuckGreenBox => 15,
+            BoxType.DuckRedBox => 10,
+            BoxType.DuckBlueBox => 5,
+
+            _ => 0
         };
+    }
+
+    public BoxType GetRandomWeightedItem(BoxType[] validBoxes)
+    {
+        int totalWeight = 0;
+
+        foreach (BoxType item in validBoxes)
+            totalWeight += GetRandomBox(item);
+
+        if (totalWeight <= 0)
+            return BoxType.None;
+
+        int randomValue = Random.Range(0, totalWeight);
+
+        foreach (BoxType item in validBoxes)
+        {
+            randomValue -= GetRandomBox(item);
+
+            if (randomValue < 0)
+                return item;
+        }
+
+        return BoxType.None;
     }
 }
 
@@ -80,5 +144,4 @@ public enum TruckType
     A1,
     B2,
     C3,
-    D4
 }

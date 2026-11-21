@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -6,12 +5,13 @@ public class PlayerControlls : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Vector2 moveInput;
-    private const int moveSpeed = 10;
+    private const int moveSpeed = 20;
 
     private GameControls controls;
 
-    //Add this line
     private Animator animator;
+
+    private GameObject visuals;
 
     private void OnEnable()
     {
@@ -35,11 +35,14 @@ public class PlayerControlls : MonoBehaviour
 
         rb.bodyType = RigidbodyType2D.Dynamic;
         rb.gravityScale = 0f;
-        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        rb.constraints = RigidbodyConstraints2D.FreezePositionY |
+                 RigidbodyConstraints2D.FreezeRotation;
+        rb.interpolation = RigidbodyInterpolation2D.Interpolate;
 
-
-        //Add this line
         animator = GetComponentInChildren<Animator>();
+        visuals = transform.Find("Visuals").gameObject;
+
+
     }
 
     private void Update()
@@ -50,8 +53,24 @@ public class PlayerControlls : MonoBehaviour
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
+        
 
-        //Add this line
         animator.SetBool("IsMoving", 0!=moveInput.x);
+
+
+
+        if(moveInput.x == -1)
+
+        {
+
+            visuals.transform.localScale = new Vector3(-1, 1, 1);
+
+        }else if(moveInput.x == 1)
+
+        {
+
+            visuals.transform.localScale = new Vector3(1, 1, 1);
+
+        }
     }
 }

@@ -12,5 +12,13 @@ public enum BoxType
     Red,
     Green,
     Blue,
-    None
+    None,
+    DragonBallNormalBox,
+    DragonBallGreenBox,
+    DragonBallRedBox,
+    DragonBallBlueBox,
+    NormalDuckBox,
+    DuckGreenBox,
+    DuckRedBox,
+    DuckBlueBox
 }

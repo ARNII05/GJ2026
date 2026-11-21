@@ -37,8 +37,6 @@ public class Inventory
         
         boxes.Add(boxType);
 
-        Debug.Log($"{boxType} added to {playerType} inventory");
-
         return true;
     }
 
@@ -49,8 +47,6 @@ public class Inventory
 
         if (!boxes.Remove(boxType))
             return false;
-
-        Debug.Log($"{boxType} removed from {playerType} inventory");
 
         return true;
     }

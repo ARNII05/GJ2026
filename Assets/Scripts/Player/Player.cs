@@ -25,8 +25,12 @@ public class Player : MonoBehaviour
 
     public event Action OnBoxDelivered;
 
-    //Add this line
+    private Vector3 initialPos = new(58.67f, -3.28f, 0);
+
+
     private Animator animator;
+
+    private GameObject visuals;
 
     private void Awake()
     {
@@ -37,7 +41,8 @@ public class Player : MonoBehaviour
 
         inventory.Init(playerType);
 
-        //Add this line
+        transform.position = initialPos;
+        
         animator = GetComponentInChildren<Animator>();
     }
 
@@ -65,6 +70,65 @@ public class Player : MonoBehaviour
 
         if (actualBox.gameObject != null)
             Destroy(actualBox.gameObject);
+
+        switch (boxType)
+        {
+            case BoxType.Normal:
+                animator.SetInteger("BoxType", 1);
+                break;
+
+            case BoxType.Red:
+                animator.SetInteger("BoxType", 2);
+                break;
+
+            case BoxType.Green:
+                animator.SetInteger("BoxType", 3);
+                break;
+
+            case BoxType.Blue:
+                animator.SetInteger("BoxType", 4);
+                break;
+
+            case BoxType.None:
+                animator.SetInteger("BoxType", 0);
+                break;
+
+            case BoxType.DragonBallNormalBox:
+                animator.SetInteger("BoxType", 5);
+                break;
+
+            case BoxType.DragonBallGreenBox:
+                animator.SetInteger("BoxType", 6);
+                break;
+
+            case BoxType.DragonBallRedBox:
+                animator.SetInteger("BoxType", 7);
+                break;
+
+            case BoxType.DragonBallBlueBox:
+                animator.SetInteger("BoxType", 8);
+                break;
+
+            case BoxType.NormalDuckBox:
+                animator.SetInteger("BoxType", 9);
+                break;
+
+            case BoxType.DuckGreenBox:
+                animator.SetInteger("BoxType", 10);
+                break;
+
+            case BoxType.DuckRedBox:
+                animator.SetInteger("BoxType", 11);
+                break;
+
+            case BoxType.DuckBlueBox:
+                animator.SetInteger("BoxType", 12);
+                break;
+
+            default:
+                animator.SetInteger("BoxType", 0);
+                break;
+        }
     }
 
     public void GiveBoxToTruck()
@@ -95,9 +159,6 @@ public class Player : MonoBehaviour
             return;
         }
 
-        //Add this line
-        animator.SetInteger("BoxType", 0);
-
         TruckResult truckResult = truck.TruckResult(actualBox);
 
         if (!truckResult.added)
@@ -110,6 +171,8 @@ public class Player : MonoBehaviour
         {
             ReduceSalaryBy(3f);
         }
+
+        animator.SetInteger("BoxType", 0);
 
         OnBoxDelivered?.Invoke();
     }
