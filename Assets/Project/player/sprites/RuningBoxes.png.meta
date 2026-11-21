@@ -1,0 +1,1367 @@
+fileFormatVersion: 2
+guid: 2331861725797a94491d7bbbc4fae01b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4619349541830675376
+    second: RuningBoxes_0
+  - first:
+      213: 7945682723377118778
+    second: RuningBoxes_1
+  - first:
+      213: 2139756065351985750
+    second: RuningBoxes_2
+  - first:
+      213: 7390095318564465368
+    second: RuningBoxes_3
+  - first:
+      213: -1073980248789001637
+    second: RuningBoxes_4
+  - first:
+      213: 3750268249865851214
+    second: RuningBoxes_5
+  - first:
+      213: -6111684094496288792
+    second: RuningBoxes_6
+  - first:
+      213: -3836982609175005357
+    second: RuningBoxes_7
+  - first:
+      213: 7326419510099625010
+    second: RuningBoxes_8
+  - first:
+      213: 938266855953541299
+    second: RuningBoxes_9
+  - first:
+      213: -2132493179174214553
+    second: RuningBoxes_10
+  - first:
+      213: -7957036856180332111
+    second: RuningBoxes_11
+  - first:
+      213: 695071884898088910
+    second: RuningBoxes_12
+  - first:
+      213: 1598913893966490276
+    second: RuningBoxes_13
+  - first:
+      213: 2733508221063442162
+    second: RuningBoxes_14
+  - first:
+      213: 3347522961234002573
+    second: RuningBoxes_15
+  - first:
+      213: 8201084983044385984
+    second: RuningBoxes_16
+  - first:
+      213: 7094125669899391241
+    second: RuningBoxes_17
+  - first:
+      213: 5013539770021981188
+    second: RuningBoxes_18
+  - first:
+      213: -1765365724852778964
+    second: RuningBoxes_19
+  - first:
+      213: 7829139571695235048
+    second: RuningBoxes_20
+  - first:
+      213: -9158255802657852347
+    second: RuningBoxes_21
+  - first:
+      213: -7612713907243659820
+    second: RuningBoxes_22
+  - first:
+      213: -499581376502216391
+    second: RuningBoxes_23
+  - first:
+      213: -8507540281397664927
+    second: RuningBoxes_24
+  - first:
+      213: -8773973861449013429
+    second: RuningBoxes_25
+  - first:
+      213: -8095130339979039552
+    second: RuningBoxes_26
+  - first:
+      213: -8140005991561012375
+    second: RuningBoxes_27
+  - first:
+      213: 6850059366535271312
+    second: RuningBoxes_28
+  - first:
+      213: 917081204282565346
+    second: RuningBoxes_29
+  - first:
+      213: -3271382081070739897
+    second: RuningBoxes_30
+  - first:
+      213: -7751482417594893338
+    second: RuningBoxes_31
+  - first:
+      213: 944776104325089829
+    second: RuningBoxes_32
+  - first:
+      213: -6067930199144912316
+    second: RuningBoxes_33
+  - first:
+      213: 8110079555028964872
+    second: RuningBoxes_34
+  - first:
+      213: -1047642704289816833
+    second: RuningBoxes_35
+  - first:
+      213: -7377373626930146505
+    second: RuningBoxes_36
+  - first:
+      213: 8430350444832793913
+    second: RuningBoxes_37
+  - first:
+      213: -3226994789834536148
+    second: RuningBoxes_38
+  - first:
+      213: -5871490726245818757
+    second: RuningBoxes_39
+  - first:
+      213: -6506363453157577873
+    second: RuningBoxes_40
+  - first:
+      213: 2836569415310179359
+    second: RuningBoxes_41
+  - first:
+      213: -4886896145588172287
+    second: RuningBoxes_42
+  - first:
+      213: 5540845566884957993
+    second: RuningBoxes_43
+  - first:
+      213: 8469883434885232052
+    second: RuningBoxes_44
+  - first:
+      213: 4171212572906455073
+    second: RuningBoxes_45
+  - first:
+      213: -2054864723097571243
+    second: RuningBoxes_46
+  - first:
+      213: -3910276110622790141
+    second: RuningBoxes_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RuningBoxes_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 535
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054b1d9e016c4efb0800000000000000
+      internalID: -4619349541830675376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 536
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ef9d0c65cb44e60800000000000000
+      internalID: 7945682723377118778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 535
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65aea45fdc0f1bd10800000000000000
+      internalID: 2139756065351985750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 536
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8daef4fa984ee8660800000000000000
+      internalID: 7390095318564465368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 487
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a552767a47811f0800000000000000
+      internalID: -1073980248789001637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 488
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e411ead7a11ab0430800000000000000
+      internalID: 3750268249865851214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_6
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 487
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efc42872bfee2ba0800000000000000
+      internalID: -6111684094496288792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_7
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 488
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357b5ca65ac40cac0800000000000000
+      internalID: -3836982609175005357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 439
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234caf63abbaca560800000000000000
+      internalID: 7326419510099625010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 440
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b822adfbb4650d00800000000000000
+      internalID: 938266855953541299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_10
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 439
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764a06180ccd762e0800000000000000
+      internalID: -2132493179174214553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_11
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 440
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b92ea2332de29190800000000000000
+      internalID: -7957036856180332111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 391
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec736b8523465a900800000000000000
+      internalID: 695071884898088910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 392
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa2f4417bb703610800000000000000
+      internalID: 1598913893966490276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_14
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fea81b8e3f5fe520800000000000000
+      internalID: 2733508221063442162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_15
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 392
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8201d5b56ac47e20800000000000000
+      internalID: 3347522961234002573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 343
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cca623475b10d170800000000000000
+      internalID: 8201084983044385984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 344
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9015552e5b5637260800000000000000
+      internalID: 7094125669899391241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_18
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 343
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c2473abdba39540800000000000000
+      internalID: 5013539770021981188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_19
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 344
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28008ff9392087e0800000000000000
+      internalID: -1765365724852778964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 295
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef29dbb5f0b6ac60800000000000000
+      internalID: 7829139571695235048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_21
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 296
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5443b68bed657e080800000000000000
+      internalID: -9158255802657852347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_22
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 295
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ddc01609053a5690800000000000000
+      internalID: -7612713907243659820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_23
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 296
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9394f2d82612119f0800000000000000
+      internalID: -499581376502216391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 247
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16327fe50352fe980800000000000000
+      internalID: -8507540281397664927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_25
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 248
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47e4cf62459c3680800000000000000
+      internalID: -8773973861449013429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_26
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 247
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ccef0b78d158af80800000000000000
+      internalID: -8095130339979039552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_27
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 248
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b5473ada3e80f80800000000000000
+      internalID: -8140005991561012375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 199
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0931ca063bc401f50800000000000000
+      internalID: 6850059366535271312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_29
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 200
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e223731f702abc00800000000000000
+      internalID: 917081204282565346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_30
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 199
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e433d6457b992d0800000000000000
+      internalID: -3271382081070739897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_31
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 200
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebf1907fc33d6490800000000000000
+      internalID: -7751482417594893338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 151
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a039a7cd48c1d00800000000000000
+      internalID: 944776104325089829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_33
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 152
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a2a1612a16acba0800000000000000
+      internalID: -6067930199144912316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_34
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 151
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806d8a1e26acc8070800000000000000
+      internalID: 8110079555028964872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_35
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 152
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe9647d2860671f0800000000000000
+      internalID: -1047642704289816833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 103
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7335e77f5cd4e9990800000000000000
+      internalID: -7377373626930146505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_37
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 104
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935a05c401f9ef470800000000000000
+      internalID: 8430350444832793913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_38
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 103
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b40e306596733d0800000000000000
+      internalID: -3226994789834536148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_39
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 104
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e1e100b46448ea0800000000000000
+      internalID: -5871490726245818757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_40
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 55
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b65fa59e0c4b5a0800000000000000
+      internalID: -6506363453157577873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_41
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 56
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cfc4cbad48d5720800000000000000
+      internalID: 2836569415310179359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_42
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 55
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10acdf3f8d14e2cb0800000000000000
+      internalID: -4886896145588172287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_43
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 56
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fc979bfa905ec40800000000000000
+      internalID: 5540845566884957993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_44
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 7
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5bc41db121b8570800000000000000
+      internalID: 8469883434885232052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_45
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 8
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1208bba2cbf13e930800000000000000
+      internalID: 4171212572906455073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_46
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 7
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550b946eb67ab73e0800000000000000
+      internalID: -2054864723097571243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RuningBoxes_47
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 8
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ee1ac4898ebb9c0800000000000000
+      internalID: -3910276110622790141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RuningBoxes_0: -4619349541830675376
+      RuningBoxes_1: 7945682723377118778
+      RuningBoxes_10: -2132493179174214553
+      RuningBoxes_11: -7957036856180332111
+      RuningBoxes_12: 695071884898088910
+      RuningBoxes_13: 1598913893966490276
+      RuningBoxes_14: 2733508221063442162
+      RuningBoxes_15: 3347522961234002573
+      RuningBoxes_16: 8201084983044385984
+      RuningBoxes_17: 7094125669899391241
+      RuningBoxes_18: 5013539770021981188
+      RuningBoxes_19: -1765365724852778964
+      RuningBoxes_2: 2139756065351985750
+      RuningBoxes_20: 7829139571695235048
+      RuningBoxes_21: -9158255802657852347
+      RuningBoxes_22: -7612713907243659820
+      RuningBoxes_23: -499581376502216391
+      RuningBoxes_24: -8507540281397664927
+      RuningBoxes_25: -8773973861449013429
+      RuningBoxes_26: -8095130339979039552
+      RuningBoxes_27: -8140005991561012375
+      RuningBoxes_28: 6850059366535271312
+      RuningBoxes_29: 917081204282565346
+      RuningBoxes_3: 7390095318564465368
+      RuningBoxes_30: -3271382081070739897
+      RuningBoxes_31: -7751482417594893338
+      RuningBoxes_32: 944776104325089829
+      RuningBoxes_33: -6067930199144912316
+      RuningBoxes_34: 8110079555028964872
+      RuningBoxes_35: -1047642704289816833
+      RuningBoxes_36: -7377373626930146505
+      RuningBoxes_37: 8430350444832793913
+      RuningBoxes_38: -3226994789834536148
+      RuningBoxes_39: -5871490726245818757
+      RuningBoxes_4: -1073980248789001637
+      RuningBoxes_40: -6506363453157577873
+      RuningBoxes_41: 2836569415310179359
+      RuningBoxes_42: -4886896145588172287
+      RuningBoxes_43: 5540845566884957993
+      RuningBoxes_44: 8469883434885232052
+      RuningBoxes_45: 4171212572906455073
+      RuningBoxes_46: -2054864723097571243
+      RuningBoxes_47: -3910276110622790141
+      RuningBoxes_5: 3750268249865851214
+      RuningBoxes_6: -6111684094496288792
+      RuningBoxes_7: -3836982609175005357
+      RuningBoxes_8: 7326419510099625010
+      RuningBoxes_9: 938266855953541299
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
