@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -13,7 +14,15 @@ public class PlayerControlls : MonoBehaviour
 
     private GameObject visuals;
 
-    public bool isMoving = false;
+    public bool isMoving = false, isSleeping = false;
+
+    private const float startSleepInterval = 10f;
+
+    private float startSleeping = startSleepInterval;
+
+    private float timeSleeping = 0f;
+
+    private const float timeSleepingToLose = 5f;
 
     private void OnEnable()
     {
@@ -48,19 +57,53 @@ public class PlayerControlls : MonoBehaviour
     private void Update()
     {
         moveInput = controls.Gameplay.Move.ReadValue<Vector2>().normalized;
+
+        isMoving = moveInput.x != 0f;
+
+        animator.SetBool("IsMoving", isMoving);
+
+        if (isMoving)
+        {
+            if (isSleeping)
+            {
+                isSleeping = false;
+                animator.SetBool("IsSleeping", false);
+            }
+
+            startSleeping = startSleepInterval;
+            timeSleeping = 0f;
+            return;
+        }
+
+        startSleeping -= Time.deltaTime;
+
+        if (startSleeping <= 0)
+        {
+            if (!isSleeping)
+            {
+                isSleeping = true;
+                animator.SetBool("IsSleeping", true);
+            }
+
+            timeSleeping += Time.deltaTime;
+
+            if (timeSleeping >= timeSleepingToLose)
+            {
+                GameManager.Instance.GameOver(false, true);
+            }
+        }
     }
 
     private void FixedUpdate()
     {
-        rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector2(
+            moveInput.x * moveSpeed,
+            rb.linearVelocity.y
+        );
 
-        isMoving = moveInput.x != 0f;
-
-        animator.SetBool("IsMoving", 0 != moveInput.x);
-
-        if (moveInput.x == -1)
+        if (moveInput.x < 0)
             visuals.GetComponent<SpriteRenderer>().flipX = true;
-        else if (moveInput.x == 1)
+        else if (moveInput.x > 0)
             visuals.GetComponent<SpriteRenderer>().flipX = false;
     }
 }

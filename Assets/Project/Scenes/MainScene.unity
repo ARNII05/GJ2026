@@ -2537,8 +2537,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   timerAlert: {fileID: 8300000, guid: d1f365d9c8a16a247a3151a0cb6bf17c, type: 3}
   footSteps: {fileID: 8300000, guid: 96c69b9f43a6c0d4f89a62b6c8c11fb8, type: 3}
-  deliverToTruck: {fileID: 0}
-  pickUpBox: {fileID: 0}
+  deliverToTruck: {fileID: 8300000, guid: eab61ff182339be41aaa30ec421fa457, type: 3}
+  pickUpBox: {fileID: 8300000, guid: f77f6bf30e20e5649844ff7f0918c86d, type: 3}
 --- !u!1 &1648379174
 GameObject:
   m_ObjectHideFlags: 0
@@ -3564,7 +3564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6601019781138187616, guid: e71e4f646031bf64ba33957046afac21, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.28
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 6601019781138187616, guid: e71e4f646031bf64ba33957046afac21, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3600,19 +3600,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6644856934602876676, guid: e71e4f646031bf64ba33957046afac21, type: 3}
       propertyPath: m_Size.x
-      value: 3.125
+      value: 0.7083333
       objectReference: {fileID: 0}
     - target: {fileID: 6644856934602876676, guid: e71e4f646031bf64ba33957046afac21, type: 3}
       propertyPath: m_Size.y
-      value: 1.71875
+      value: 0.6666667
       objectReference: {fileID: 0}
     - target: {fileID: 6644856934602876676, guid: e71e4f646031bf64ba33957046afac21, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 7721009611110557220, guid: c319cde06cf085a4fb65c45388cf05a6, type: 3}
+      objectReference: {fileID: 7721009611110557220, guid: b9c1a758b13b2cb41aabdff4d451174a, type: 3}
     - target: {fileID: 6644856934602876676, guid: e71e4f646031bf64ba33957046afac21, type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

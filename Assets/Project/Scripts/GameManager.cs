@@ -326,9 +326,9 @@ public class GameManager : MonoBehaviour
             player.ReduceSalaryBy(3f);
     }
 
-    private void GameOver(bool isAWin = false)
+    public void GameOver(bool isAWin = false, bool isSleeping = false)
     {
-        if (isAWin || player.GetSalary() <= 0)
+        if (isAWin || player.GetSalary() <= 0 || isSleeping)
         {
             gameEnded = true;
             endGamePanel.OpenPanel();

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Linq;
 using UnityEngine;
 
@@ -14,7 +15,7 @@ public class Player : MonoBehaviour
 
     private PlayerControlls playerControlls;
 
-    private Inventory inventory = new();
+    private readonly Inventory inventory = new();
 
     private float salary = 12f;
 
@@ -78,6 +79,8 @@ public class Player : MonoBehaviour
 
         if (!inventory.Add(boxType))
             return;
+
+        GameManager.Instance.PlaySFXSound(AudioType.PickUpBox);
 
         SetAnim(boxType);
 
@@ -182,6 +185,7 @@ public class Player : MonoBehaviour
         }
 
         animator.SetInteger("BoxType", 0);
+        GameManager.Instance.PlaySFXSound(AudioType.DeliverToTruck);
 
         if (!truck.CorrectBox().Contains(actualBox))
         {

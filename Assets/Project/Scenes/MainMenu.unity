@@ -1900,6 +1900,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1389114525987497848, guid: 6cc76e5ce8c0ab44291153a1aa3437dc, type: 3}
+    - target: {fileID: 8082578580723585419, guid: 8096c9c9c7d80344fb3304e77bb37c78, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082578580723585419, guid: 8096c9c9c7d80344fb3304e77bb37c78, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7020545793901273880, guid: 07f09dc38465e224a9998eb2ea7426b1, type: 3}
     - target: {fileID: 8163262873514362012, guid: 8096c9c9c7d80344fb3304e77bb37c78, type: 3}
       propertyPath: m_Sprite
       value: 
