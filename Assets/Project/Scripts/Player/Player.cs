@@ -80,7 +80,7 @@ public class Player : MonoBehaviour
         if (!inventory.Add(boxType))
             return;
 
-        GameManager.Instance.PlaySFXSound(AudioType.PickUpBox);
+        GameManager.Instance.PlaySFXSound(AudioType.DeliverToTruck);
 
         SetAnim(boxType);
 

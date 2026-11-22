@@ -16,7 +16,7 @@ public class Inventory
         maxCapacity = playerType switch
         {
             PlayerType.Player => 1,
-            PlayerType.Truck => 10,
+            PlayerType.Truck => int.MaxValue,
             _ => 0
         };
     }

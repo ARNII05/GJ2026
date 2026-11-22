@@ -26,6 +26,9 @@ MonoBehaviour:
     m_path: Assets/Project/Scenes/MainMenu.unity
     m_guid: 47824b91670ad6745a6ac9f6eaf1c70a
   - m_enabled: 1
+    m_path: Assets/Project/Scenes/Boss.unity
+    m_guid: c14204c79210e844093abcd2019d6c4c
+  - m_enabled: 1
     m_path: Assets/Project/Scenes/MainScene.unity
     m_guid: 8c9cfa26abfee488c85f1582747f6a02
   m_HasScriptingDefines: 0

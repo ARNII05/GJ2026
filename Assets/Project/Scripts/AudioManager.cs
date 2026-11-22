@@ -10,6 +10,8 @@ public class AudioManager : MonoBehaviour
     {
         musicSource = GameObject.Find("MusicSource").GetComponent<AudioSource>();
         sfxSource = GameObject.Find("SFXSource").GetComponent<AudioSource>();
+
+        PlayMusicAudio();
     }
 
     public void StopMusicAudio()

@@ -47,6 +47,8 @@ public class GameManager : MonoBehaviour
 
     private EndGameUI endGamePanel;
 
+    private WinUI winPanel;
+
     private AudioManager audioManager;
 
     private void Awake()
@@ -66,7 +68,8 @@ public class GameManager : MonoBehaviour
         instructionsText = GameObject.Find("InstructionsText").GetComponent<TMP_Text>();
 
         endGamePanel = GameObject.Find("EndGamePanel").GetComponent<EndGameUI>();
-        
+        winPanel = GameObject.Find("WinPanel").GetComponent<WinUI>();
+
         player = FindAnyObjectByType<Player>();
 
         audioManager = FindAnyObjectByType<AudioManager>();
@@ -328,6 +331,14 @@ public class GameManager : MonoBehaviour
 
     public void GameOver(bool isAWin = false, bool isSleeping = false)
     {
+        float salary = player.GetSalary();
+
+        if (isAWin)
+        {
+            winPanel.OpenPanel(salary);
+            return;
+        }
+
         if (isAWin || player.GetSalary() <= 0 || isSleeping)
         {
             gameEnded = true;

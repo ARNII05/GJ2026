@@ -115,11 +115,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 15
-        y: 7
+        y: 8
         width: 23
-        height: 32
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -137,11 +137,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 63
-        y: 8
+        y: 9
         width: 23
-        height: 32
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,11 +159,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 109
-        y: 7
+        y: 8
         width: 23
-        height: 32
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,11 +181,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 155
-        y: 8
+        y: 9
         width: 25
-        height: 32
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -198,11 +198,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Tileset-Runing_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f252a227e126f408dfbcacbcd9629a
+      internalID: -2036630771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2536974990abfc74f8536e9c5f9a7fdb
     internalID: 0
     vertices: []
     indices: 
@@ -216,6 +238,7 @@ TextureImporter:
       Tileset-Runing_1: -3633697461460124465
       Tileset-Runing_2: -16651042878990264
       Tileset-Runing_3: -6771489960598178879
+      Tileset-Runing_4: -2036630771
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
