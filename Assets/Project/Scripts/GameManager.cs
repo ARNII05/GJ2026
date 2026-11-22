@@ -9,6 +9,8 @@ using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance { get; private set; }
+
     private const float maxTimePerBox = 15f;
 
     private const int boxsesUpgraderInterval = 3;
@@ -45,8 +47,18 @@ public class GameManager : MonoBehaviour
 
     private EndGameUI endGamePanel;
 
+    private AudioManager audioManager;
+
     private void Awake()
     {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+
         timeText = GameObject.Find("TimeText").GetComponent<TMP_Text>();
         dayText = GameObject.Find("DayText").GetComponent<TMP_Text>();
         salaryText = GameObject.Find("SalaryText").GetComponent<TMP_Text>();
@@ -56,6 +68,8 @@ public class GameManager : MonoBehaviour
         endGamePanel = GameObject.Find("EndGamePanel").GetComponent<EndGameUI>();
         
         player = FindAnyObjectByType<Player>();
+
+        audioManager = FindAnyObjectByType<AudioManager>();
 
         player.OnSalaryChanged += GameOverEvent;
         player.OnSalaryChanged += ChangeSalaryText;
@@ -84,6 +98,11 @@ public class GameManager : MonoBehaviour
             CheckForBox();
             actualTime = maxTimePerBox;
         }
+    }
+
+    public void PlaySFXSound(AudioType audioType)
+    {
+        audioManager.PlaySFXAudio(audioManager.GetAudioClip(audioType));
     }
 
     private void SetBoxesPerDay()
@@ -313,6 +332,7 @@ public class GameManager : MonoBehaviour
         {
             gameEnded = true;
             endGamePanel.OpenPanel();
+            audioManager.StopMusicAudio();
         }
     }
 

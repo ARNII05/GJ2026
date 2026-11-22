@@ -13,6 +13,8 @@ public class PlayerControlls : MonoBehaviour
 
     private GameObject visuals;
 
+    public bool isMoving = false;
+
     private void OnEnable()
     {
         controls.Enable();
@@ -52,22 +54,13 @@ public class PlayerControlls : MonoBehaviour
     {
         rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
 
+        isMoving = moveInput.x != 0f;
+
         animator.SetBool("IsMoving", 0 != moveInput.x);
 
         if (moveInput.x == -1)
-
-        {
-
             visuals.GetComponent<SpriteRenderer>().flipX = true;
-
-        }
         else if (moveInput.x == 1)
-
-        {
-
             visuals.GetComponent<SpriteRenderer>().flipX = false;
-
-        }
-
     }
 }

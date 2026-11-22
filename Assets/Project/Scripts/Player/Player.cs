@@ -6,10 +6,13 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerControlls))]
 [RequireComponent(typeof(InputHandler))]
 [RequireComponent(typeof(NearbyObjects))]
+[RequireComponent(typeof(PlayerControlls))]
 public class Player : MonoBehaviour
 {
     private InputHandler inputHandler;
     private NearbyObjects nearbyObjects;
+
+    private PlayerControlls playerControlls;
 
     private Inventory inventory = new();
 
@@ -29,12 +32,17 @@ public class Player : MonoBehaviour
 
     private Animator animator;
 
+    private const float triggerWalkSoundInterval = 0.35f;
+
+    private float actualWalkSoundTime = triggerWalkSoundInterval;
+
     private void Awake()
     {
         name = "Mike Wazowski";
 
         inputHandler = GetComponent<InputHandler>();
         nearbyObjects = GetComponent<NearbyObjects>();
+        playerControlls = GetComponent<PlayerControlls>();
 
         inventory.Init(playerType);
 
@@ -46,6 +54,14 @@ public class Player : MonoBehaviour
     private void Update()
     {
         inputHandler.HandleInput();
+
+        actualWalkSoundTime -= Time.deltaTime;
+
+        if (actualWalkSoundTime <= 0 && playerControlls.isMoving)
+        {
+            GameManager.Instance.PlaySFXSound(AudioType.FootSteps);
+            actualWalkSoundTime = triggerWalkSoundInterval;
+        }
     }
 
     public void SaveBox()
